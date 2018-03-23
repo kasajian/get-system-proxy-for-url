@@ -1,0 +1,15 @@
+{
+  "name": "get-system-proxy-for-url",
+  "version": "1.0.0",
+  "description": "Gets the proxy to be used for a given url from the operating system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kenneth Kasajian",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-powershell": "^3.3.1"
+  }
+}
