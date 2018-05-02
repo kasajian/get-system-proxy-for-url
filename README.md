@@ -10,8 +10,8 @@ $ yarn add get-system-proxy-for-url
 
 ## Quick start
 ```javascript
-var url = require('url');
 var getSystemProxyForUrl = require('get-system-proxy-for-url');
+var url = require('url');
 
 getSystemProxyForUrl("http://google.com")
 .then(function(proxy) {
